@@ -102,7 +102,7 @@ signIn.addEventListener('click', (event) => {
         formMessage('login is successfull', 'signInMessage');
         const user = userCredential.user;
         localStorage.setItem('loggedInUserId', user.uid);
-        window.location.href="homepage.html";
+        window.location.href="homepageindex.html";
     })
 
     .catch((error) => {

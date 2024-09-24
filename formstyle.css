@@ -365,7 +365,12 @@ form button:hover{
         justify-content:space-evenly ;
         padding: 5px 0;
         align-items: center;
-        gap: 6px;
+        gap: 8px;
+    }
+
+    .links a{
+        display: flex;
+        margin-bottom:3px ;
     }
 
 }
