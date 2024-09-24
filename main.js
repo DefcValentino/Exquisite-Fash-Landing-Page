@@ -43,3 +43,5 @@ closeicon.addEventListener('click', ()=> {
     menunav.style.right = '-500px';
     openicon.style.display = 'block';
 })
+
+

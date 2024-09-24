@@ -109,8 +109,13 @@ function reveal() {
     }
 }
 
+// FORM SUBMIT BUTTON
 
+const submit = document.getElementById('submitbutton');
 
+submit.addEventListener('click', (event) => {
+    event.preventDefault();
+})
 
 
 
